@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Heaven of Africa — African Food Store, Dubai</title>
+  <link rel="stylesheet" href="css/style.css?v=6" />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🌍</text></svg>" />
+</head>
+<body>
+
+<!-- NAV -->
+<nav id="navbar">
+  <div class="container nav-inner">
+    <a href="#hero" class="logo">Heaven <span>of Africa</span></a>
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#catalog">Catalog</a></li>
+      <li><a href="#ai-assistant">AI Assistant</a></li>
+      <li><a href="#delivery">Delivery</a></li>
+      <li><a href="#booking">Booking</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <div class="nav-cta">
+      <a href="#booking" class="btn btn-primary">Book a Visit</a>
+    </div>
+    <button class="hamburger" id="hamburgerBtn" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</nav>
+
+<!-- MOBILE MENU -->
+<div class="mobile-menu" id="mobileMenu">
+  <button class="mobile-close" id="mobileClose">✕</button>
+  <a href="#about" class="mobile-link">About</a>
+  <a href="#catalog" class="mobile-link">Catalog</a>
+  <a href="#ai-assistant" class="mobile-link">AI Assistant</a>
+  <a href="#delivery" class="mobile-link">Delivery</a>
+  <a href="#booking" class="mobile-link">Booking</a>
+  <a href="#contact" class="mobile-link">Contact</a>
+</div>
+
+<!-- HERO -->
+<section id="hero">
+  <div class="hero-bg"></div>
+  <div class="hero-pattern"></div>
+  <div class="container">
+    <div class="hero-content">
+      <div class="hero-badge">African Flavors in Dubai</div>
+      <h1>Experience the <span class="gold">Rich Flavors</span> of Africa</h1>
+      <p>Authentic ingredients, spices and foods from across the African continent — carefully sourced and delivered to the heart of Dubai.</p>
+      <div class="hero-actions">
+        <a href="#catalog" class="btn btn-primary">Explore Catalog ↓</a>
+        <a href="#ai-assistant" class="btn btn-outline">Ask AI Assistant</a>
+      </div>
+      <div class="hero-stats">
+        <div class="stat-item">
+          <div class="stat-number">200+</div>
+          <div class="stat-label">African Products</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-number">30+</div>
+          <div class="stat-label">Countries Sourced</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-number">5★</div>
+          <div class="stat-label">Customer Rating</div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="hero-visual">
+    <div class="hero-circle">
+      <div class="hero-emoji-center">🌍</div>
+      <div class="orbit-item">🌶️</div>
+      <div class="orbit-item">🍚</div>
+      <div class="orbit-item">🌿</div>
+      <div class="orbit-item">🥜</div>
+    </div>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about">
+  <div class="container">
+    <div class="about-grid">
+      <div class="about-visual">
+        <div class="about-card-main">
+          <div class="about-icon">🛒</div>
+          <h3>Your African Food Store</h3>
+          <p style="color:var(--text-muted);font-size:0.9rem;margin-top:8px;">From West African staples to East African superfoods — all in one place.</p>
+          <div class="about-badges">
+            <div class="about-badge"><span>🌍</span>Authentic</div>
+            <div class="about-badge"><span>✈️</span>Imported</div>
+            <div class="about-badge"><span>🌱</span>Natural</div>
+            <div class="about-badge"><span>🏆</span>Premium</div>
+          </div>
+        </div>
+      </div>
+      <div class="about-text">
+        <div class="section-label">Our Story</div>
+        <h2>Where Africa Meets <span class="gold">Dubai</span></h2>
+        <p>Heaven of Africa was founded with one mission: to bring the vibrant, diverse and deeply nourishing foods of Africa to the multicultural city of Dubai.</p>
+        <p>From Nigerian egusi and West African palm oil to Ethiopian berbere spice and East African moringa — we source directly from trusted farmers and producers across the continent.</p>
+        <div class="about-features">
+          <div class="feature-item">
+            <div class="feature-icon">🌾</div>
+            <div class="feature-text">
+              <h4>Direct Sourcing</h4>
+              <p>Products sourced directly from African farms and co-ops.</p>
+            </div>
+          </div>
+          <div class="feature-item">
+            <div class="feature-icon">🧪</div>
+            <div class="feature-text">
+              <h4>Quality Checked</h4>
+              <p>Every product passes quality inspection before reaching you.</p>
+            </div>
+          </div>
+          <div class="feature-item">
+            <div class="feature-icon">📦</div>
+            <div class="feature-text">
+              <h4>Proper Storage</h4>
+              <p>Climate-controlled storage to preserve freshness and flavor.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CATALOG -->
+<section id="catalog">
+  <div class="container">
+    <div class="section-header">
+      <div class="section-label">Product Catalog</div>
+      <h2>African <span class="gold">Essentials</span></h2>
+      <p>From pantry staples to rare superfoods — discover the taste of the continent.</p>
+    </div>
+    <div class="catalog-filters" id="filterBtns">
+      <!-- Filled by JS -->
+    </div>
+    <div class="product-grid" id="productGrid">
+      <!-- Filled by JS -->
+    </div>
+  </div>
+</section>
+
+<!-- AI ASSISTANT -->
+<section id="ai-assistant">
+  <div class="container">
+    <div class="ai-grid">
+      <div class="ai-info">
+        <div class="section-label">AI Assistant</div>
+        <h2>Meet <span class="gold">Amara</span> — Your Food Guide</h2>
+        <p>Not sure what to cook or which ingredient to choose? Amara is your personal African food expert. Ask anything — from recipes to ingredient substitutions.</p>
+        <div class="ai-capabilities">
+          <div class="capability">
+            <div class="capability-icon">🍽️</div>
+            <div class="capability-text">Suggest recipes based on ingredients you have</div>
+          </div>
+          <div class="capability">
+            <div class="capability-icon">🌶️</div>
+            <div class="capability-text">Explain spice levels, flavor profiles, combinations</div>
+          </div>
+          <div class="capability">
+            <div class="capability-icon">🔄</div>
+            <div class="capability-text">Recommend ingredient substitutes</div>
+          </div>
+          <div class="capability">
+            <div class="capability-icon">🌍</div>
+            <div class="capability-text">Tell you about the origin and culture of a dish</div>
+          </div>
+          <div class="capability">
+            <div class="capability-icon">🛒</div>
+            <div class="capability-text">Help you find the right product in our catalog</div>
+          </div>
+        </div>
+      </div>
+      <div class="chat-window">
+        <div class="chat-header">
+          <div class="chat-avatar">🌺</div>
+          <div>
+            <div class="chat-name">Amara — African Food AI</div>
+            <div class="chat-status">● Online</div>
+          </div>
+        </div>
+        <div class="chat-messages" id="chatMessages">
+          <div class="message bot">
+            <div class="msg-bubble">Hello! I'm Amara 🌺 Your personal guide to African cuisine. Ask me about ingredients, recipes, or help finding a product in our store!</div>
+            <div class="msg-time">now</div>
+          </div>
+        </div>
+        <div class="chat-footer">
+          <div class="chat-quick-btns">
+            <button class="quick-btn" data-msg="What is Jollof Rice?">Jollof Rice?</button>
+            <button class="quick-btn" data-msg="What can I cook with egusi?">Egusi recipes</button>
+            <button class="quick-btn" data-msg="Tell me about berbere spice">Berbere spice</button>
+            <button class="quick-btn" data-msg="What is moringa good for?">Moringa benefits</button>
+          </div>
+          <div class="chat-input-row">
+            <input type="text" class="chat-input" id="chatInput" placeholder="Ask about African food..." />
+            <button class="chat-send" id="chatSend">➤</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- DELIVERY -->
+<section id="delivery">
+  <div class="container">
+    <div class="delivery-icon">🚚</div>
+    <div class="section-label">Coming Soon</div>
+    <h2>Delivery <span class="gold">Across Dubai</span></h2>
+    <p>We're working hard to bring African flavors straight to your door. Be the first to know when delivery launches in your area.</p>
+    <div class="notify-form">
+      <input type="email" class="notify-input" placeholder="your@email.com" id="notifyEmail" />
+      <button class="btn btn-primary" id="notifyBtn">Notify Me</button>
+    </div>
+    <p id="notifySuccess" style="display:none;color:#4CAF50;margin-top:16px;font-size:0.9rem;">You're on the list! We'll notify you when delivery goes live.</p>
+  </div>
+</section>
+
+<!-- BOOKING -->
+<section id="booking">
+  <div class="container">
+    <div class="booking-grid">
+      <div class="booking-info">
+        <div class="section-label">Book a Visit</div>
+        <h2>Schedule a <span class="gold">Consultation</span></h2>
+        <p>Visit our store and get a guided tour of our African pantry. Our food specialists will help you discover new ingredients and build your first African recipe.</p>
+        <div class="booking-perks">
+          <div class="perk"><div class="perk-icon">🎁</div><div class="perk-text">Free tasting session for first-time visitors</div></div>
+          <div class="perk"><div class="perk-icon">👨‍🍳</div><div class="perk-text">One-on-one guidance from our food experts</div></div>
+          <div class="perk"><div class="perk-icon">📚</div><div class="perk-text">Take-home recipe cards included</div></div>
+          <div class="perk"><div class="perk-icon">⏰</div><div class="perk-text">45-minute sessions, flexible scheduling</div></div>
+        </div>
+      </div>
+      <div class="booking-form">
+        <h3>Book Your Visit</h3>
+        <form id="bookingForm">
+          <div class="form-row">
+            <div class="form-group">
+              <label for="firstName">First Name</label>
+              <input type="text" id="firstName" placeholder="Ahmed" required />
+            </div>
+            <div class="form-group">
+              <label for="lastName">Last Name</label>
+              <input type="text" id="lastName" placeholder="Al-Rashid" required />
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" placeholder="you@example.com" required />
+          </div>
+          <div class="form-group">
+            <label for="phone">Phone (optional)</label>
+            <input type="tel" id="phone" placeholder="+971 50 000 0000" />
+          </div>
+          <div class="form-row">
+            <div class="form-group">
+              <label for="visitDate">Preferred Date</label>
+              <input type="date" id="visitDate" required />
+            </div>
+            <div class="form-group">
+              <label for="visitTime">Preferred Time</label>
+              <select id="visitTime">
+                <option>10:00 AM</option>
+                <option>11:00 AM</option>
+                <option>12:00 PM</option>
+                <option>2:00 PM</option>
+                <option>3:00 PM</option>
+                <option>4:00 PM</option>
+                <option>5:00 PM</option>
+              </select>
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="interests">What are you interested in?</label>
+            <select id="interests">
+              <option>West African Cuisine</option>
+              <option>East African Cuisine</option>
+              <option>North African Cuisine</option>
+              <option>Spices & Seasonings</option>
+              <option>Superfoods & Health</option>
+              <option>General exploration</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="notes">Additional notes</label>
+            <textarea id="notes" placeholder="Dietary restrictions, questions, etc."></textarea>
+          </div>
+          <div class="form-submit">
+            <button type="submit" class="btn btn-primary" style="width:100%;justify-content:center;">Book Consultation →</button>
+          </div>
+          <div class="form-success" id="formSuccess">
+            ✅ Booking received! We'll confirm via email within 24 hours.
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact">
+  <div class="container">
+    <div class="contact-grid">
+      <div class="contact-info">
+        <div class="section-label">Find Us</div>
+        <h2>Visit <span class="gold">Heaven of Africa</span></h2>
+        <p>We're located in the heart of Dubai. Come experience the sights, smells and tastes of Africa — no passport required.</p>
+        <div class="contact-items">
+          <div class="contact-item">
+            <div class="contact-icon">📍</div>
+            <div class="contact-detail">
+              <h4>Address</h4>
+              <p>Al Quoz Industrial Area 3, Dubai, UAE</p>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="contact-icon">⏰</div>
+            <div class="contact-detail">
+              <h4>Hours</h4>
+              <p>Mon–Sat: 9:00 AM – 8:00 PM<br>Sunday: 10:00 AM – 6:00 PM</p>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="contact-icon">📞</div>
+            <div class="contact-detail">
+              <h4>Phone</h4>
+              <p>+971 4 000 0000</p>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="contact-icon">📧</div>
+            <div class="contact-detail">
+              <h4>Email</h4>
+              <p>hello@heavenofafrica.ae</p>
+            </div>
+          </div>
+        </div>
+        <div class="social-links">
+          <div class="social-link" title="Instagram">📸</div>
+          <div class="social-link" title="Facebook">📘</div>
+          <div class="social-link" title="TikTok">🎵</div>
+          <div class="social-link" title="WhatsApp">💬</div>
+        </div>
+      </div>
+      <div class="map-placeholder">
+        <div class="map-placeholder-icon">🗺️</div>
+        <p>Al Quoz Industrial Area 3<strong>Dubai, United Arab Emirates</strong></p>
+        <a href="#booking" class="btn btn-outline" style="margin-top:16px;font-size:0.85rem;">Book a Visit Instead →</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="container">
+    <div class="logo">Heaven <span>of Africa</span></div>
+    <p style="margin-top:8px;">© 2025 Heaven of Africa. African food store in Dubai. All rights reserved.</p>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>

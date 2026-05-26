@@ -1,0 +1,173 @@
+{
+  "categories": ["All", "Grains & Staples", "Spices & Sauces", "Oils & Pastes", "Snacks & Drinks", "Health & Superfoods"],
+  "products": [
+    {
+      "id": 1,
+      "name": "Jollof Rice Mix",
+      "category": "Grains & Staples",
+      "price": 28,
+      "weight": "500g",
+      "origin": "West Africa",
+      "description": "Classic West African rice blend with tomatoes, peppers and aromatic spices.",
+      "tags": ["Popular", "Bestseller"],
+      "emoji": "🍚",
+      "color": "#C1440E"
+    },
+    {
+      "id": 2,
+      "name": "Egusi Seeds",
+      "category": "Grains & Staples",
+      "price": 35,
+      "weight": "400g",
+      "origin": "Nigeria",
+      "description": "Ground melon seeds — key ingredient for traditional Egusi Soup.",
+      "tags": ["Traditional"],
+      "emoji": "🌰",
+      "color": "#D4A017"
+    },
+    {
+      "id": 3,
+      "name": "Berbere Spice Blend",
+      "category": "Spices & Sauces",
+      "price": 22,
+      "weight": "200g",
+      "origin": "Ethiopia",
+      "description": "Bold Ethiopian spice mix with chili, fenugreek, coriander and 10+ spices.",
+      "tags": ["Hot", "Chef's Choice"],
+      "emoji": "🌶️",
+      "color": "#8B1A1A"
+    },
+    {
+      "id": 4,
+      "name": "Suya Spice",
+      "category": "Spices & Sauces",
+      "price": 18,
+      "weight": "150g",
+      "origin": "Nigeria",
+      "description": "Authentic grilling spice for suya skewers — smoky, nutty and fiery.",
+      "tags": ["Popular", "BBQ"],
+      "emoji": "🔥",
+      "color": "#B5450B"
+    },
+    {
+      "id": 5,
+      "name": "Red Palm Oil",
+      "category": "Oils & Pastes",
+      "price": 45,
+      "weight": "1L",
+      "origin": "West Africa",
+      "description": "Unrefined red palm oil — deep flavor, rich color, essential for traditional dishes.",
+      "tags": ["Organic"],
+      "emoji": "🫙",
+      "color": "#E8600A"
+    },
+    {
+      "id": 6,
+      "name": "Groundnut Paste",
+      "category": "Oils & Pastes",
+      "price": 32,
+      "weight": "350g",
+      "origin": "West Africa",
+      "description": "Pure roasted peanut paste for soups, sauces and spreads.",
+      "tags": ["Natural"],
+      "emoji": "🥜",
+      "color": "#A0522D"
+    },
+    {
+      "id": 7,
+      "name": "Bissap (Hibiscus)",
+      "category": "Snacks & Drinks",
+      "price": 25,
+      "weight": "250g",
+      "origin": "Senegal",
+      "description": "Dried hibiscus flowers for vibrant deep-red tea — sweet, tart, refreshing.",
+      "tags": ["Popular", "Drink"],
+      "emoji": "🌺",
+      "color": "#9B1D6E"
+    },
+    {
+      "id": 8,
+      "name": "Plantain Chips",
+      "category": "Snacks & Drinks",
+      "price": 15,
+      "weight": "200g",
+      "origin": "Ghana",
+      "description": "Crispy salted plantain chips — light snack with authentic West African flavor.",
+      "tags": ["Snack", "Gluten-free"],
+      "emoji": "🍌",
+      "color": "#F5C518"
+    },
+    {
+      "id": 9,
+      "name": "Moringa Powder",
+      "category": "Health & Superfoods",
+      "price": 55,
+      "weight": "200g",
+      "origin": "East Africa",
+      "description": "Pure moringa leaf powder — packed with vitamins, minerals and antioxidants.",
+      "tags": ["Superfood", "Organic"],
+      "emoji": "🌿",
+      "color": "#2D6A4F"
+    },
+    {
+      "id": 10,
+      "name": "Fufu Flour",
+      "category": "Grains & Staples",
+      "price": 20,
+      "weight": "680g",
+      "origin": "West Africa",
+      "description": "Pre-cooked cassava and plantain flour for quick fufu — soft, stretchy, traditional.",
+      "tags": ["Traditional", "Quick Cook"],
+      "emoji": "🫓",
+      "color": "#E8D5B7"
+    },
+    {
+      "id": 11,
+      "name": "Piri Piri Sauce",
+      "category": "Spices & Sauces",
+      "price": 28,
+      "weight": "250ml",
+      "origin": "Mozambique",
+      "description": "Classic African bird's eye chili hot sauce — fiery and tangy.",
+      "tags": ["Hot", "Popular"],
+      "emoji": "🫙",
+      "color": "#CC2200"
+    },
+    {
+      "id": 12,
+      "name": "Baobab Powder",
+      "category": "Health & Superfoods",
+      "price": 60,
+      "weight": "150g",
+      "origin": "Southern Africa",
+      "description": "Dried baobab fruit powder — citrusy superfood with 6x more vitamin C than oranges.",
+      "tags": ["Superfood", "Chef's Choice"],
+      "emoji": "🍋",
+      "color": "#D4A017"
+    },
+    {
+      "id": 13,
+      "name": "Gari",
+      "category": "Grains & Staples",
+      "price": 24,
+      "weight": "500g",
+      "origin": "West Africa",
+      "description": "Fermented and roasted cassava semolina — versatile staple eaten as porridge or mixed with water.",
+      "tags": ["Traditional", "Popular"],
+      "emoji": "🌾",
+      "color": "#C8A96E"
+    },
+    {
+      "id": 14,
+      "name": "Plantain Flour",
+      "category": "Grains & Staples",
+      "price": 27,
+      "weight": "400g",
+      "origin": "West Africa",
+      "description": "Sun-dried and milled plantain flour — naturally gluten-free, great for porridge and baking.",
+      "tags": ["Natural", "Gluten-free"],
+      "emoji": "🫘",
+      "color": "#B5A642"
+    }
+  ]
+}
