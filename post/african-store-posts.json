@@ -1,0 +1,301 @@
+{
+  "pipeline_version": "1.1",
+  "generated_at": "2026-05-27",
+  "orchestrator": "store-content-pipeline",
+  "agents_used": ["product-researcher", "social-copywriter"],
+  "store": {
+    "name": "Heaven of Africa",
+    "location": "Al Quoz Industrial Area 3, Dubai, UAE",
+    "hours": "Mon–Sat: 9:00 AM – 8:00 PM | Sunday: 10:00 AM – 6:00 PM",
+    "phone": "+971 4 000 0000",
+    "email": "hello@heavenofafrica.ae",
+    "delivery_status": "Coming Soon",
+    "source": "data/products.json + index.html"
+  },
+  "product_catalog_summary": {
+    "total_products": 14,
+    "categories": [
+      "Grains & Staples",
+      "Spices & Sauces",
+      "Oils & Pastes",
+      "Snacks & Drinks",
+      "Health & Superfoods"
+    ],
+    "price_range_aed": {
+      "min": 15,
+      "max": 60
+    },
+    "products_covered_in_posts": [
+      "Jollof Rice Mix",
+      "Egusi Seeds",
+      "Fufu Flour",
+      "Gari",
+      "Berbere Spice Blend",
+      "Suya Spice",
+      "Piri Piri Sauce",
+      "Red Palm Oil",
+      "Groundnut Paste",
+      "Moringa Powder",
+      "Baobab Powder",
+      "Plantain Chips",
+      "Plantain Flour",
+      "Bissap (Hibiscus)"
+    ]
+  },
+  "posts": [
+    {
+      "post_id": "post-001",
+      "product_focus": "Jollof Rice Mix",
+      "category": "Grains & Staples",
+      "platforms": {
+        "telegram": {
+          "hook": "The dish that started a continent-wide debate — and we have the mix that ends it.",
+          "body": "Jollof Rice Mix is Heaven of Africa's bestselling product. This classic West African blend of rice, tomatoes, peppers and aromatic spices gives you an authentic result every time. 500g pack sourced from West Africa — 28 AED. No shortcuts. No artificial blends. Just the real thing, ready for your kitchen.",
+          "call_to_action": "Visit us at Al Quoz Industrial Area 3, Dubai. Open Mon–Sat 9:00 AM – 8:00 PM, Sunday 10:00 AM – 6:00 PM. Book a free tasting consultation at hello@heavenofafrica.ae",
+          "hashtags": [
+            "#HeavenOfAfrica",
+            "#JollofRice",
+            "#AfricanFoodDubai",
+            "#WestAfricanFood",
+            "#DubaiFood",
+            "#AfricanGroceryDubai"
+          ]
+        },
+        "instagram": {
+          "hook": "West Africa on a plate — and it starts with this.",
+          "caption": "West Africa on a plate — and it starts with this.\n\nJollof Rice Mix from Heaven of Africa is our bestselling product and the most requested item in the store. A classic blend of rice, tomatoes, peppers and aromatic spices — 500g for just 28 AED.\n\nIf you've never made Jollof Rice at home, this is the easiest way to start. Come visit us in Al Quoz, Dubai — our team will walk you through it.",
+          "call_to_action": "Find us at Al Quoz Industrial Area 3, Dubai. Store hours in bio.",
+          "engagement_question": "Team Jollof or Team Fried Rice? Drop your answer below.",
+          "hashtags": [
+            "#HeavenOfAfrica",
+            "#JollofRice",
+            "#AfricanFoodDubai",
+            "#WestAfricanFood",
+            "#DubaiEats",
+            "#AfricanGrocery",
+            "#NigerianFood",
+            "#GhanaianFood",
+            "#AfricanCuisine",
+            "#DubaiFood"
+          ]
+        }
+      }
+    },
+    {
+      "post_id": "post-002",
+      "product_focus": "Egusi Seeds + Fufu Flour + Gari",
+      "category": "Grains & Staples",
+      "platforms": {
+        "telegram": {
+          "hook": "Three West African pantry staples — now all in one store in Dubai.",
+          "body": "If you cook West African food, these three belong in your kitchen. Egusi Seeds from Nigeria (400g, 35 AED) — the essential base for traditional Egusi Soup. Fufu Flour (680g, 20 AED) — pre-cooked cassava and plantain flour for soft, stretchy fufu in minutes. Gari (500g, 24 AED) — fermented roasted cassava semolina, eaten as porridge or mixed with water. All sourced from West Africa. All available now at Heaven of Africa, Al Quoz, Dubai.",
+          "call_to_action": "Come stock your African pantry. Open Mon–Sat 9:00 AM – 8:00 PM, Sunday 10:00 AM – 6:00 PM.",
+          "hashtags": [
+            "#HeavenOfAfrica",
+            "#EgusiSeeds",
+            "#FufuFlour",
+            "#Gari",
+            "#WestAfricanFood",
+            "#AfricanFoodDubai",
+            "#NigerianFood",
+            "#AfricanGrocery"
+          ]
+        },
+        "instagram": {
+          "hook": "Three staples. Three textures. One West African pantry.",
+          "caption": "Three staples. Three textures. One West African pantry.\n\nEgusi Seeds (400g / 35 AED) — ground melon seeds, the heart of Egusi Soup. Fufu Flour (680g / 20 AED) — quick-cook cassava and plantain, soft and stretchy. Gari (500g / 24 AED) — roasted cassava semolina, a daily staple across West Africa.\n\nAll three are in stock right now at Heaven of Africa, Al Quoz Industrial Area 3, Dubai. New to these ingredients? Book a free 45-minute in-store consultation and our food specialists will guide you.",
+          "call_to_action": "Visit us or book a free tasting session — details in bio.",
+          "engagement_question": "Which of these do you cook with most? Egusi, Fufu or Gari?",
+          "hashtags": [
+            "#HeavenOfAfrica",
+            "#EguiSoup",
+            "#Fufu",
+            "#Gari",
+            "#WestAfricanFood",
+            "#NigerianFood",
+            "#GhanaianFood",
+            "#AfricanFoodDubai",
+            "#AfricanGrocery",
+            "#CassavaLovers"
+          ]
+        }
+      }
+    },
+    {
+      "post_id": "post-003",
+      "product_focus": "Berbere Spice Blend + Suya Spice + Piri Piri Sauce",
+      "category": "Spices & Sauces",
+      "platforms": {
+        "telegram": {
+          "hook": "Three spice traditions, three countries — all on your shelf today.",
+          "body": "Ethiopian Berbere Spice Blend (200g, 22 AED) — bold and layered with chili, fenugreek, coriander and 10+ more spices. Tagged Chef's Choice. Nigerian Suya Spice (150g, 18 AED) — the authentic grilling blend for suya skewers: smoky, nutty, fiery. Mozambican Piri Piri Sauce (250ml, 28 AED) — classic bird's eye chili hot sauce, fiery and tangy. Whether you're roasting meat, building a stew or adding heat to a marinade, these three will transform your cooking.",
+          "call_to_action": "Come in and smell them for yourself. Al Quoz Industrial Area 3, Dubai — we're open every day.",
+          "hashtags": [
+            "#HeavenOfAfrica",
+            "#BerbereSpice",
+            "#SuyaSpice",
+            "#PiriPiri",
+            "#AfricanSpices",
+            "#EthiopianFood",
+            "#NigerianFood",
+            "#MozambicanFood",
+            "#AfricanFoodDubai"
+          ]
+        },
+        "instagram": {
+          "hook": "Your spice rack is about to get a serious upgrade.",
+          "caption": "Your spice rack is about to get a serious upgrade.\n\nThree of our most loved seasonings are in stock right now. Ethiopian Berbere — bold, complex, 10+ spices in one jar (200g / 22 AED). Nigerian Suya Spice — smoky, nutty, made for the grill (150g / 18 AED). Mozambican Piri Piri Sauce — fiery, tangy, pure bird's eye chili (250ml / 28 AED).\n\nThree countries. Three flavor traditions. All at Heaven of Africa in Al Quoz, Dubai.",
+          "call_to_action": "Stop by Al Quoz Industrial Area 3 or book a free in-store consultation.",
+          "engagement_question": "Which spice tradition are you most curious about — Ethiopian, Nigerian, or Mozambican?",
+          "hashtags": [
+            "#HeavenOfAfrica",
+            "#BerbereSpice",
+            "#SuyaSpice",
+            "#PiriPiriSauce",
+            "#AfricanSpices",
+            "#EthiopianCuisine",
+            "#NigerianCuisine",
+            "#AfricanFoodDubai",
+            "#DubaiFood",
+            "#SpiceLovers",
+            "#AfricanGrocery"
+          ]
+        }
+      }
+    },
+    {
+      "post_id": "post-004",
+      "product_focus": "Red Palm Oil + Groundnut Paste",
+      "category": "Oils & Pastes",
+      "platforms": {
+        "telegram": {
+          "hook": "Two West African cooking essentials — now available in Dubai.",
+          "body": "Red Palm Oil (1L, 45 AED) is unrefined, deeply flavored and gives traditional dishes that unmistakable rich color. Certified organic. Groundnut Paste (350g, 32 AED) is pure roasted peanut paste — no additives, no fillers — used in soups, sauces and spreads across West Africa. Both sourced from West Africa and available at Heaven of Africa, Al Quoz, Dubai.",
+          "call_to_action": "Visit us at Al Quoz Industrial Area 3. Open Mon–Sat 9:00 AM – 8:00 PM, Sunday 10:00 AM – 6:00 PM.",
+          "hashtags": [
+            "#HeavenOfAfrica",
+            "#RedPalmOil",
+            "#GroundnutPaste",
+            "#WestAfricanFood",
+            "#AfricanFoodDubai",
+            "#AfricanGrocery",
+            "#OrganicDubai"
+          ]
+        },
+        "instagram": {
+          "hook": "The two ingredients that make West African dishes taste exactly right.",
+          "caption": "The two ingredients that make West African dishes taste exactly right.\n\nRed Palm Oil — unrefined, organic, deeply flavored. 1L for 45 AED. It's what gives egusi soup, banga soup and many stews their signature color and taste.\n\nGroundnut Paste — pure roasted peanut, natural and unsweetened. 350g for 32 AED. The base for groundnut soup and a dozen other West African classics.\n\nBoth in stock at Heaven of Africa, Al Quoz Industrial Area 3, Dubai.",
+          "call_to_action": "Find us in Al Quoz. Store hours in bio.",
+          "engagement_question": "Do you use palm oil in your cooking? What's your favourite dish to make with it?",
+          "hashtags": [
+            "#HeavenOfAfrica",
+            "#RedPalmOil",
+            "#GroundnutPaste",
+            "#WestAfricanFood",
+            "#AfricanFoodDubai",
+            "#NigerianFood",
+            "#GhanaianFood",
+            "#AfricanGrocery",
+            "#OrganicFood",
+            "#DubaiFood"
+          ]
+        }
+      }
+    },
+    {
+      "post_id": "post-005",
+      "product_focus": "Moringa Powder + Baobab Powder",
+      "category": "Health & Superfoods",
+      "platforms": {
+        "telegram": {
+          "hook": "Africa has been growing superfoods for centuries — here are two you should know.",
+          "body": "Moringa Powder (200g, 55 AED) is pure East African moringa leaf — packed with vitamins, minerals and antioxidants. Organic. Baobab Powder (150g, 60 AED) comes from the baobab fruit of Southern Africa — citrusy, naturally nutrient-rich, tagged as Chef's Choice. Both available at Heaven of Africa in Al Quoz, Dubai.",
+          "call_to_action": "Visit us at Al Quoz Industrial Area 3, Dubai. Mon–Sat 9:00 AM – 8:00 PM, Sunday 10:00 AM – 6:00 PM.",
+          "hashtags": [
+            "#HeavenOfAfrica",
+            "#MoringaPowder",
+            "#BaobabPowder",
+            "#AfricanSuperfoods",
+            "#EastAfricanFood",
+            "#AfricanFoodDubai",
+            "#OrganicDubai"
+          ]
+        },
+        "instagram": {
+          "hook": "The continent's two most powerful superfoods — in one store.",
+          "caption": "The continent's two most powerful superfoods — in one store.\n\nMoringa Powder from East Africa (200g / 55 AED) and Baobab Powder from Southern Africa (150g / 60 AED). Both organic, both farm-sourced, both packed with nutrients that have been part of African diets for generations.\n\nAt Heaven of Africa in Dubai, we carry these alongside 200+ other authentic African products — from everyday pantry staples to rare regional finds. Come explore them in store at Al Quoz Industrial Area 3.",
+          "call_to_action": "Visit us in Al Quoz or book a free 45-minute tasting consultation — free for first-time visitors.",
+          "engagement_question": "Have you ever cooked with moringa or baobab? What did you make?",
+          "hashtags": [
+            "#HeavenOfAfrica",
+            "#MoringaPowder",
+            "#BaobabPowder",
+            "#AfricanSuperfoods",
+            "#SuperfoodDubai",
+            "#OrganicDubai",
+            "#AfricanFoodDubai",
+            "#EastAfrica",
+            "#DubaiWellness",
+            "#AfricanGrocery"
+          ]
+        }
+      }
+    },
+    {
+      "post_id": "post-006",
+      "product_focus": "Plantain Chips + Plantain Flour + Bissap (Hibiscus)",
+      "category": "Snacks & Drinks",
+      "platforms": {
+        "telegram": {
+          "hook": "A snack, a drink and a baking staple — the easiest way to explore African flavors today.",
+          "body": "Plantain Chips from Ghana (200g, 15 AED) — crispy, salted, naturally gluten-free. Plantain Flour from West Africa (400g, 27 AED) — sun-dried and milled, gluten-free, perfect for porridge and baking. Bissap Hibiscus from Senegal (250g, 25 AED) — dried flowers for a bold, deep-red tea that's sweet, tart and refreshing. Three products. Three countries. One easy way into African food — no experience required.",
+          "call_to_action": "Find us at Al Quoz Industrial Area 3, Dubai. Open daily.",
+          "hashtags": [
+            "#HeavenOfAfrica",
+            "#PlantainChips",
+            "#PlantainFlour",
+            "#Bissap",
+            "#HibiscusTea",
+            "#WestAfricanFood",
+            "#AfricanFoodDubai",
+            "#AfricanSnacks",
+            "#GlutenFree"
+          ]
+        },
+        "instagram": {
+          "hook": "The easiest way to taste Africa today — no cooking experience required.",
+          "caption": "The easiest way to taste Africa today — no cooking experience required.\n\nGhanaian Plantain Chips — crispy, salted, naturally gluten-free. 200g for 15 AED.\nWest African Plantain Flour — sun-dried, milled, great for baking and porridge. 400g for 27 AED.\nSenegalese Bissap Hibiscus — dried flowers for a bold deep-red tea. 250g for 25 AED.\n\nThree products. Three countries. All available now at Heaven of Africa, Al Quoz Industrial Area 3, Dubai.",
+          "call_to_action": "Stop by the store — open Mon–Sat from 9 AM and Sunday from 10 AM.",
+          "engagement_question": "Have you tried bissap tea or plantain flour before? What did you make with them?",
+          "hashtags": [
+            "#HeavenOfAfrica",
+            "#PlantainChips",
+            "#PlantainFlour",
+            "#BissapTea",
+            "#HibiscusTea",
+            "#AfricanFoodDubai",
+            "#GhanaianFood",
+            "#SenegaleseFood",
+            "#DubaiFood",
+            "#AfricanSnacks",
+            "#GlutenFree",
+            "#AfricanGrocery"
+          ]
+        }
+      }
+    }
+  ],
+  "validation": {
+    "passed": true,
+    "checks": {
+      "all_fields_present": true,
+      "platforms_used": ["telegram", "instagram"],
+      "no_vk": true,
+      "no_invented_products": true,
+      "delivery_not_claimed": true,
+      "all_products_covered": true,
+      "language": "English",
+      "post_count": 6
+    }
+  }
+}

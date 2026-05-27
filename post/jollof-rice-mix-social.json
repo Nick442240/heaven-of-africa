@@ -1,0 +1,44 @@
+{
+  "source": "https://heaven-of-africa-demo.netlify.app/",
+  "brand": "Heaven of Africa Store",
+  "topic": "Jollof Rice Mix — the taste of West Africa, ready for your kitchen in Dubai",
+  "platforms": {
+    "telegram": {
+      "hook": "🍚 Jollof Rice is West Africa's most beloved dish. Now you can make it at home in Dubai — the right way.",
+      "main_text": "If you've ever tasted Jollof Rice, you know: it's not just rice. It's smoky, spiced, slow-cooked and deeply satisfying. For millions of people across Nigeria, Ghana, Senegal and beyond, it's comfort food in its purest form.\n\nAt Heaven of Africa Store in Al Quoz, Dubai, you'll find Jollof Rice Mix as part of a catalog of 200+ authentic African products sourced from 30+ countries. The mix brings together the key spices and seasonings that give Jollof its signature depth — so you don't have to hunt down each ingredient separately.\n\nNot sure how to cook it or what to pair it with? Amara — the store's AI food assistant — can walk you through the recipe, suggest variations, and explain what each ingredient does.\n\nFirst-time visitor? Book a 45-minute in-store consultation with a free tasting session and take-home recipe cards.\n\nDelivery across Dubai is coming soon. For now, visit the store: Al Quoz Industrial Area 3, Mon–Sat 9:00 AM – 8:00 PM, Sunday 10:00 AM – 6:00 PM.",
+      "product_focus": "Jollof Rice Mix — authentic West African spice blend for home cooking",
+      "call_to_action": "Find Jollof Rice Mix at Heaven of Africa Store in Al Quoz, or explore the full catalog at heavenofafrica.ae",
+      "hashtags": [
+        "#JollofRice",
+        "#HeavenOfAfrica",
+        "#AfricanFoodDubai",
+        "#WestAfricanFood",
+        "#AfricanGroceryDubai",
+        "#DubaiAfricanFood"
+      ],
+      "image_prompt": "A warm, appetizing photo of a pot of freshly cooked Jollof Rice with a deep red-orange color, steaming gently. Beside it on a wooden surface, a packet of Jollof Rice Mix spice blend and a few whole tomatoes, peppers and bay leaves. Warm natural side lighting, rich textures, earthy tones — terracotta, golden orange, deep red. Premium food photography aesthetic with a modern African kitchen feel."
+    },
+    "instagram": {
+      "hook": "The dish that starts arguments — and ends meals. 🍚🔥",
+      "caption": "Nigerians will tell you theirs is the best. Ghanaians disagree. Senegalese have their own version entirely.\n\nBut everyone agrees on one thing: Jollof Rice is something special.\n\nSmoked, spiced, slow-cooked to that perfect tomato-red color — it's the kind of dish that takes you straight back to a family table, a celebration, a Sunday afternoon.\n\nNow you can make it in Dubai. Heaven of Africa Store stocks Jollof Rice Mix alongside 200+ authentic African ingredients sourced from across the continent. Not sure where to start? Ask Amara, the store's AI food assistant — she'll guide you through the recipe step by step.\n\nFirst-time visitor? Free tasting session included. Delivery to Dubai is coming soon. 🌍",
+      "visual_angle": "Overhead shot of a glossy, perfectly cooked pot of Jollof Rice — deep orange-red, glistening, with small charred bits visible at the edges (the coveted party jollof bottom). Beside it, a wooden spoon and scattered whole spices. Warm, moody lighting with a terracotta and deep red color palette. Authentic, slightly rustic but elevated food photography.",
+      "call_to_action": "Visit Heaven of Africa Store in Al Quoz or explore the catalog at heavenofafrica.ae",
+      "question": "Team Nigerian Jollof, Team Ghanaian Jollof — or are you neutral? 👇",
+      "hashtags": [
+        "#JollofRice",
+        "#JollofWars",
+        "#HeavenOfAfrica",
+        "#AfricanFoodDubai",
+        "#WestAfricanCuisine",
+        "#AfricanGrocery",
+        "#DubaiFood",
+        "#NigerianFood",
+        "#GhanaianFood",
+        "#DubaiEats",
+        "#AfricanExpats",
+        "#AuthenticAfricanFood"
+      ],
+      "image_prompt": "Overhead close-up of a large pot of Jollof Rice with deep orange-red color, slightly charred at the edges, steam rising. A wooden spoon rests on the side. Around the pot on a warm linen surface: a packet of Jollof Rice Mix, whole tomatoes, scotch bonnet peppers, and bay leaves. Warm golden-hour light, rich earthy tones, shallow depth of field. Elevated food photography with a warm, celebratory West African atmosphere."
+    }
+  }
+}

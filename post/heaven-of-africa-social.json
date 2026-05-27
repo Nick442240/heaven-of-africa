@@ -1,0 +1,44 @@
+{
+  "source": "https://heaven-of-africa-demo.netlify.app/",
+  "brand": "Heaven of Africa Store",
+  "topic": "AI food assistant Amara — your personal guide to African cuisine in Dubai",
+  "platforms": {
+    "telegram": {
+      "hook": "🌍 Not sure which African spice to use? Meet Amara — the AI guide inside Heaven of Africa Store.",
+      "main_text": "Heaven of Africa is Dubai's dedicated African food store, stocked with 200+ products sourced from 30+ countries across the continent. From West African egusi and red palm oil to Ethiopian berbere and North African pantry staples — everything is quality-inspected and stored in climate-controlled conditions.\n\nWhat sets this store apart is Amara — an AI food assistant built right into the store experience. Amara can help you:\n• Understand what a product is and how to use it\n• Get recipe ideas for dishes like Jollof Rice, Egusi Soup or Suya\n• Find the right ingredient substitution\n• Learn the cultural origins of what you're cooking\n\nNot sure where to start? You can book a 45-minute in-store consultation — free tasting included for first-time visitors, plus take-home recipe cards.\n\nDelivery across Dubai is coming soon. For now, the store is open in Al Quoz Industrial Area 3, Mon–Sat 9:00 AM – 8:00 PM, Sunday 10:00 AM – 6:00 PM.",
+      "product_focus": "AI Assistant Amara — personalized guidance for every African ingredient in the catalog",
+      "call_to_action": "Visit the store, explore the catalog, or book a free tasting consultation at heavenofafrica.ae",
+      "hashtags": [
+        "#HeavenOfAfrica",
+        "#AfricanFoodDubai",
+        "#AfricanGroceryDubai",
+        "#AmaraAI",
+        "#AfricanCuisineDubai",
+        "#DubaiAfricanFood"
+      ],
+      "image_prompt": "A warm, premium lifestyle photo inside a modern African food store in Dubai. Wooden shelves lined with neatly arranged jars of berbere spice, egusi seeds, red palm oil and plantain chips. A soft glowing tablet screen in the foreground displays a friendly AI assistant chat interface. Natural warm light, clean and uncluttered composition, rich earthy tones — terracotta, deep red, golden yellow. Professional food store photography aesthetic."
+    },
+    "instagram": {
+      "hook": "Ever stood in front of a spice jar wondering what on earth to do with it? 🫙✨",
+      "caption": "That moment used to feel intimidating. Now it's the best part of the trip.\n\nAt Heaven of Africa Store in Dubai, every product comes with a secret weapon — Amara, an AI food assistant who knows African cuisine inside out.\n\nAsk Amara what egusi actually tastes like. Ask for a Jollof Rice recipe. Ask what makes Ethiopian berbere different from your average chili blend. She'll guide you through 200+ products from 30+ African countries — no guesswork, no confusion.\n\nThe store is in Al Quoz Industrial Area 3. First-time visitors get a free tasting session and take-home recipe cards. Delivery is coming soon to Dubai.\n\nAfrican food is bold, layered and deeply rooted in culture. Amara helps you explore it with confidence. 🌍",
+      "visual_angle": "Close-up flat lay of colorful African spices and ingredients — berbere, egusi seeds, bissap flowers, plantain chips — arranged on a warm terracotta surface. A smartphone beside them showing the Amara AI chat interface. Warm golden-hour light, rich textures, premium food photography feel.",
+      "call_to_action": "Visit the store in Al Quoz or explore the catalog at heavenofafrica.ae",
+      "question": "Which African ingredient have you always been curious about but never tried? 👇",
+      "hashtags": [
+        "#HeavenOfAfrica",
+        "#AfricanFoodDubai",
+        "#AmaraAI",
+        "#AfricanCuisine",
+        "#DubaiFood",
+        "#AfricanGrocery",
+        "#EgusiSoup",
+        "#BerbereSpice",
+        "#JollofRice",
+        "#DubaiEats",
+        "#AfricanExpats",
+        "#FoodInDubai"
+      ],
+      "image_prompt": "A vibrant premium flat lay photo on a warm terracotta or linen surface. African pantry ingredients: a small bowl of egusi seeds, a jar of berbere spice blend, dried hibiscus flowers (bissap), golden plantain chips, and a bottle of red palm oil. Beside them, a smartphone with a minimal AI chat interface open. Warm natural side lighting, shallow depth of field, editorial food photography style. Rich earthy colors — deep red, golden yellow, burnt orange, forest green accents."
+    }
+  }
+}
