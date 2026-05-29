@@ -44,7 +44,8 @@ function renderProducts(products) {
         <div class="product-tags">
           ${p.tags.map(tag => `<span class="tag ${getTagClass(tag)}">${tag}</span>`).join('')}
         </div>
-        ${p.emoji}
+        ${p.image ? `<img class="prod-img" src="${p.image}" alt="${p.name}" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">` : ''}
+        <span class="prod-emoji" style="${p.image ? 'display:none;' : ''}color:${p.color}">${p.emoji}</span>
       </div>
       <div class="product-body">
         <div class="product-origin">📍 ${p.origin} · ${p.weight}</div>
@@ -147,16 +148,26 @@ function removeTyping() {
   if (el) el.remove();
 }
 
-function sendMessage(text) {
+async function sendMessage(text) {
   const msg = text || chatInput.value.trim();
   if (!msg) return;
   chatInput.value = '';
   addMessage(msg, 'user');
   showTyping();
-  setTimeout(() => {
+  try {
+    const res = await fetch('/.netlify/functions/chat', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ message: msg })
+    });
+    if (!res.ok) throw new Error('API error');
+    const data = await res.json();
+    removeTyping();
+    addMessage(data.reply, 'bot');
+  } catch {
     removeTyping();
     addMessage(findResponse(msg), 'bot');
-  }, 900 + Math.random() * 400);
+  }
 }
 
 chatSend.addEventListener('click', () => sendMessage());

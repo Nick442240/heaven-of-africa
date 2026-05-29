@@ -11,7 +11,8 @@
       "description": "Classic West African rice blend with tomatoes, peppers and aromatic spices.",
       "tags": ["Popular", "Bestseller"],
       "emoji": "🍚",
-      "color": "#C1440E"
+      "color": "#C1440E",
+      "image": "https://images.unsplash.com/photo-1547592180-85f173990554?w=400&h=300&fit=crop&q=80"
     },
     {
       "id": 2,
@@ -23,7 +24,8 @@
       "description": "Ground melon seeds — key ingredient for traditional Egusi Soup.",
       "tags": ["Traditional"],
       "emoji": "🌰",
-      "color": "#D4A017"
+      "color": "#D4A017",
+      "image": "https://images.unsplash.com/photo-1511689660979-10d2b1eccf3a?w=400&h=300&fit=crop&q=80"
     },
     {
       "id": 3,
@@ -35,7 +37,8 @@
       "description": "Bold Ethiopian spice mix with chili, fenugreek, coriander and 10+ spices.",
       "tags": ["Hot", "Chef's Choice"],
       "emoji": "🌶️",
-      "color": "#8B1A1A"
+      "color": "#8B1A1A",
+      "image": "https://images.unsplash.com/photo-1596040033229-a9821ebd058d?w=400&h=300&fit=crop&q=80"
     },
     {
       "id": 4,
@@ -47,7 +50,8 @@
       "description": "Authentic grilling spice for suya skewers — smoky, nutty and fiery.",
       "tags": ["Popular", "BBQ"],
       "emoji": "🔥",
-      "color": "#B5450B"
+      "color": "#B5450B",
+      "image": "https://images.unsplash.com/photo-1518977822534-7049a61ee0c2?w=400&h=300&fit=crop&q=80"
     },
     {
       "id": 5,
@@ -59,7 +63,8 @@
       "description": "Unrefined red palm oil — deep flavor, rich color, essential for traditional dishes.",
       "tags": ["Organic"],
       "emoji": "🫙",
-      "color": "#E8600A"
+      "color": "#E8600A",
+      "image": "https://images.unsplash.com/photo-1474979266404-7eaacbcd87c5?w=400&h=300&fit=crop&q=80"
     },
     {
       "id": 6,
@@ -71,7 +76,8 @@
       "description": "Pure roasted peanut paste for soups, sauces and spreads.",
       "tags": ["Natural"],
       "emoji": "🥜",
-      "color": "#A0522D"
+      "color": "#A0522D",
+      "image": "https://images.unsplash.com/photo-1566740220-4a57ef31c0e7?w=400&h=300&fit=crop&q=80"
     },
     {
       "id": 7,
@@ -83,7 +89,8 @@
       "description": "Dried hibiscus flowers for vibrant deep-red tea — sweet, tart, refreshing.",
       "tags": ["Popular", "Drink"],
       "emoji": "🌺",
-      "color": "#9B1D6E"
+      "color": "#9B1D6E",
+      "image": "https://images.unsplash.com/photo-1597181386736-93a23b4aeb97?w=400&h=300&fit=crop&q=80"
     },
     {
       "id": 8,
@@ -95,7 +102,8 @@
       "description": "Crispy salted plantain chips — light snack with authentic West African flavor.",
       "tags": ["Snack", "Gluten-free"],
       "emoji": "🍌",
-      "color": "#F5C518"
+      "color": "#F5C518",
+      "image": "https://images.unsplash.com/photo-1571771894821-ce9b6c11b08e?w=400&h=300&fit=crop&q=80"
     },
     {
       "id": 9,
@@ -107,7 +115,8 @@
       "description": "Pure moringa leaf powder — packed with vitamins, minerals and antioxidants.",
       "tags": ["Superfood", "Organic"],
       "emoji": "🌿",
-      "color": "#2D6A4F"
+      "color": "#2D6A4F",
+      "image": "https://images.unsplash.com/photo-1534361960057-19f4434a4d08?w=400&h=300&fit=crop&q=80"
     },
     {
       "id": 10,
@@ -119,7 +128,8 @@
       "description": "Pre-cooked cassava and plantain flour for quick fufu — soft, stretchy, traditional.",
       "tags": ["Traditional", "Quick Cook"],
       "emoji": "🫓",
-      "color": "#E8D5B7"
+      "color": "#E8D5B7",
+      "image": "https://images.unsplash.com/photo-1556909211-36987daf7b4d?w=400&h=300&fit=crop&q=80"
     },
     {
       "id": 11,
@@ -131,7 +141,8 @@
       "description": "Classic African bird's eye chili hot sauce — fiery and tangy.",
       "tags": ["Hot", "Popular"],
       "emoji": "🫙",
-      "color": "#CC2200"
+      "color": "#CC2200",
+      "image": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=400&h=300&fit=crop&q=80"
     },
     {
       "id": 12,
@@ -143,7 +154,8 @@
       "description": "Dried baobab fruit powder — citrusy superfood with 6x more vitamin C than oranges.",
       "tags": ["Superfood", "Chef's Choice"],
       "emoji": "🍋",
-      "color": "#D4A017"
+      "color": "#D4A017",
+      "image": "https://images.unsplash.com/photo-1605449397018-e90d3eebdc00?w=400&h=300&fit=crop&q=80"
     },
     {
       "id": 13,
@@ -155,7 +167,8 @@
       "description": "Fermented and roasted cassava semolina — versatile staple eaten as porridge or mixed with water.",
       "tags": ["Traditional", "Popular"],
       "emoji": "🌾",
-      "color": "#C8A96E"
+      "color": "#C8A96E",
+      "image": "https://images.unsplash.com/photo-1551754655-cd27e38d2076?w=400&h=300&fit=crop&q=80"
     },
     {
       "id": 14,
@@ -167,7 +180,8 @@
       "description": "Sun-dried and milled plantain flour — naturally gluten-free, great for porridge and baking.",
       "tags": ["Natural", "Gluten-free"],
       "emoji": "🫘",
-      "color": "#B5A642"
+      "color": "#B5A642",
+      "image": "https://images.unsplash.com/photo-1603833665858-e61d17a86224?w=400&h=300&fit=crop&q=80"
     }
   ]
 }
