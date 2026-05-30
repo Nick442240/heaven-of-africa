@@ -1,0 +1,369 @@
+{
+  "generated_at": "2026-05-30",
+  "store": "Heaven of Africa",
+  "source_agent": "recipe-writer",
+  "recipes": [
+    {
+      "recipe_id": "recipe-001",
+      "title": "Classic West African Jollof Rice",
+      "featured_product": "Jollof Rice Mix",
+      "difficulty": "Easy",
+      "time_minutes": 30,
+      "servings": 4,
+      "description": "A one-pot rice dish bursting with tomato and spice. The mix does all the seasoning work — just add water, oil, and optional protein.",
+      "ingredients": [
+        { "name": "Jollof Rice Mix", "amount": "500g (1 pack)", "in_store": true },
+        { "name": "water", "amount": "700ml", "in_store": false },
+        { "name": "onion", "amount": "1 medium, chopped", "in_store": false },
+        { "name": "vegetable oil", "amount": "3 tbsp", "in_store": false },
+        { "name": "salt", "amount": "to taste", "in_store": false },
+        { "name": "chicken or mixed vegetables", "amount": "300g (optional)", "in_store": false }
+      ],
+      "steps": [
+        "Heat oil in a heavy pot over medium heat.",
+        "Add chopped onion and fry for 3 minutes until soft.",
+        "Add optional chicken or vegetables and brown for 5 minutes.",
+        "Pour in the Jollof Rice Mix and stir to coat with oil.",
+        "Add 700ml water and salt. Stir once.",
+        "Bring to a boil, then reduce heat to low.",
+        "Cover with a tight lid and cook for 20 minutes without lifting the lid.",
+        "Check that water is absorbed and rice is tender. Serve hot."
+      ],
+      "serving_suggestion": "Serve with fried plantain and a side of coleslaw.",
+      "tags": ["west-african", "rice", "one-pot", "weeknight", "popular"]
+    },
+    {
+      "recipe_id": "recipe-002",
+      "title": "Nigerian Egusi Soup",
+      "featured_product": "Egusi Seeds",
+      "difficulty": "Medium",
+      "time_minutes": 50,
+      "servings": 4,
+      "description": "A rich, thick Nigerian soup made from ground melon seeds simmered with leafy greens and spices. Traditionally served with fufu or pounded yam.",
+      "ingredients": [
+        { "name": "Egusi Seeds", "amount": "200g", "in_store": true },
+        { "name": "Red Palm Oil", "amount": "3 tbsp", "in_store": true },
+        { "name": "water or stock", "amount": "500ml", "in_store": false },
+        { "name": "onion", "amount": "1 medium, blended", "in_store": false },
+        { "name": "tomato", "amount": "2 medium, blended", "in_store": false },
+        { "name": "spinach or ugwu leaves", "amount": "100g, chopped", "in_store": false },
+        { "name": "salt", "amount": "to taste", "in_store": false },
+        { "name": "chili pepper", "amount": "1 small (optional)", "in_store": false },
+        { "name": "smoked fish or cooked meat", "amount": "200g (optional)", "in_store": false }
+      ],
+      "steps": [
+        "Blend onion, tomato, and chili pepper into a smooth paste.",
+        "Heat red palm oil in a pot over medium heat for 2 minutes.",
+        "Add blended paste and fry for 8 minutes, stirring often.",
+        "Mix egusi seeds with a little water to form a thick paste.",
+        "Drop spoonfuls of egusi paste into the pot.",
+        "Add stock or water and stir gently.",
+        "Add optional fish or meat and season with salt.",
+        "Cover and cook on low heat for 20 minutes.",
+        "Stir in chopped greens and cook for 5 more minutes.",
+        "Adjust seasoning and serve hot."
+      ],
+      "serving_suggestion": "Serve with fufu, pounded yam, or a bowl of steamed rice.",
+      "tags": ["nigerian", "soup", "traditional", "gluten-free", "palm-oil"]
+    },
+    {
+      "recipe_id": "recipe-003",
+      "title": "Ethiopian Berbere Chicken Stew",
+      "featured_product": "Berbere Spice Blend",
+      "difficulty": "Medium",
+      "time_minutes": 60,
+      "servings": 4,
+      "description": "A deeply spiced Ethiopian-inspired chicken stew built on a slow-cooked onion base and fragrant berbere. Bold, warming, and full of depth.",
+      "ingredients": [
+        { "name": "Berbere Spice Blend", "amount": "2 tbsp", "in_store": true },
+        { "name": "Red Palm Oil", "amount": "3 tbsp", "in_store": true },
+        { "name": "chicken thighs", "amount": "600g, skin-on", "in_store": false },
+        { "name": "onion", "amount": "3 large, finely chopped", "in_store": false },
+        { "name": "garlic", "amount": "4 cloves, minced", "in_store": false },
+        { "name": "ginger", "amount": "1 tsp, grated", "in_store": false },
+        { "name": "water or chicken stock", "amount": "300ml", "in_store": false },
+        { "name": "salt", "amount": "to taste", "in_store": false },
+        { "name": "hard-boiled eggs", "amount": "4, peeled (optional)", "in_store": false }
+      ],
+      "steps": [
+        "Heat palm oil in a heavy pot over medium-low heat.",
+        "Add onions and cook for 20 minutes, stirring often, until very soft and golden.",
+        "Add garlic and ginger and cook for 2 minutes.",
+        "Stir in berbere spice blend and cook for 2 minutes.",
+        "Add chicken thighs and turn to coat in the spice paste.",
+        "Pour in stock or water and season with salt.",
+        "Cover and simmer on low heat for 30 minutes.",
+        "Add peeled hard-boiled eggs in the last 5 minutes if using.",
+        "Serve hot."
+      ],
+      "serving_suggestion": "Serve over injera flatbread or alongside steamed rice with a slice of lemon.",
+      "tags": ["ethiopian", "chicken", "stew", "spicy", "berbere"]
+    },
+    {
+      "recipe_id": "recipe-004",
+      "title": "Nigerian Suya Beef Skewers",
+      "featured_product": "Suya Spice",
+      "difficulty": "Easy",
+      "time_minutes": 25,
+      "servings": 4,
+      "description": "Thin-sliced beef skewers coated in nutty, smoky suya spice and grilled until charred at the edges. A street-food classic from northern Nigeria.",
+      "ingredients": [
+        { "name": "Suya Spice", "amount": "3 tbsp", "in_store": true },
+        { "name": "Groundnut Paste", "amount": "2 tbsp", "in_store": true },
+        { "name": "beef sirloin or flank steak", "amount": "500g, thinly sliced", "in_store": false },
+        { "name": "vegetable oil", "amount": "2 tbsp", "in_store": false },
+        { "name": "salt", "amount": "to taste", "in_store": false },
+        { "name": "wooden skewers", "amount": "8, soaked in water", "in_store": false }
+      ],
+      "steps": [
+        "Mix suya spice, groundnut paste, oil, and salt in a bowl.",
+        "Add sliced beef and toss until fully coated.",
+        "Thread beef onto soaked wooden skewers.",
+        "Heat a grill pan or outdoor grill to high heat.",
+        "Grill skewers for 3–4 minutes per side.",
+        "Serve immediately while hot."
+      ],
+      "serving_suggestion": "Serve with sliced onion rings, tomato, and a sprinkle of extra suya spice on the side.",
+      "tags": ["nigerian", "beef", "grilled", "street-food", "bbq", "skewers"]
+    },
+    {
+      "recipe_id": "recipe-005",
+      "title": "Palm Oil Stewed Black-Eyed Peas",
+      "featured_product": "Red Palm Oil",
+      "difficulty": "Medium",
+      "time_minutes": 50,
+      "servings": 4,
+      "description": "A hearty West African bean stew where red palm oil adds deep color and earthy richness. Filling on its own or as a side dish.",
+      "ingredients": [
+        { "name": "Red Palm Oil", "amount": "4 tbsp", "in_store": true },
+        { "name": "dried black-eyed peas", "amount": "300g, soaked overnight", "in_store": false },
+        { "name": "onion", "amount": "1 large, chopped", "in_store": false },
+        { "name": "tomato", "amount": "2 medium, chopped", "in_store": false },
+        { "name": "garlic", "amount": "3 cloves, minced", "in_store": false },
+        { "name": "chili pepper", "amount": "1 small", "in_store": false },
+        { "name": "salt", "amount": "to taste", "in_store": false },
+        { "name": "water", "amount": "600ml", "in_store": false }
+      ],
+      "steps": [
+        "Drain soaked black-eyed peas and rinse well.",
+        "Boil peas in fresh water for 30 minutes until tender. Drain.",
+        "Heat red palm oil in a pot over medium heat.",
+        "Add onion and fry for 5 minutes.",
+        "Add garlic, chili, and tomato and cook for 8 minutes.",
+        "Add cooked peas and 200ml water.",
+        "Season with salt and stir.",
+        "Cook uncovered for 10 minutes until the sauce thickens.",
+        "Serve hot."
+      ],
+      "serving_suggestion": "Serve over white rice or with a chunk of crusty bread.",
+      "tags": ["west-african", "beans", "stew", "vegan", "palm-oil", "budget-friendly"]
+    },
+    {
+      "recipe_id": "recipe-006",
+      "title": "West African Groundnut Soup",
+      "featured_product": "Groundnut Paste",
+      "difficulty": "Medium",
+      "time_minutes": 45,
+      "servings": 4,
+      "description": "A creamy peanut-based soup popular across West Africa, rich with tomato and spice. Works with chicken, lamb, or as a vegetarian dish.",
+      "ingredients": [
+        { "name": "Groundnut Paste", "amount": "150g", "in_store": true },
+        { "name": "Red Palm Oil", "amount": "2 tbsp", "in_store": true },
+        { "name": "chicken pieces or tofu", "amount": "400g", "in_store": false },
+        { "name": "onion", "amount": "1 large, chopped", "in_store": false },
+        { "name": "tomato", "amount": "3 medium, blended", "in_store": false },
+        { "name": "garlic", "amount": "3 cloves, minced", "in_store": false },
+        { "name": "ginger", "amount": "1 tsp, grated", "in_store": false },
+        { "name": "chicken or vegetable stock", "amount": "600ml", "in_store": false },
+        { "name": "salt", "amount": "to taste", "in_store": false },
+        { "name": "chili flakes", "amount": "1/2 tsp (optional)", "in_store": false }
+      ],
+      "steps": [
+        "Heat palm oil in a large pot over medium heat.",
+        "Add onion and fry for 5 minutes.",
+        "Add garlic and ginger and cook for 2 minutes.",
+        "Add blended tomato and cook for 8 minutes.",
+        "Add chicken or tofu and stir to coat.",
+        "Pour in stock and bring to a simmer.",
+        "Thin groundnut paste with a ladle of hot stock, then stir into the pot.",
+        "Add chili if using and season with salt.",
+        "Simmer uncovered for 20 minutes, stirring occasionally.",
+        "Adjust consistency with extra stock if needed."
+      ],
+      "serving_suggestion": "Ladle over rice or serve with fufu and a sprinkle of chopped green onion.",
+      "tags": ["west-african", "peanut", "soup", "chicken", "comfort-food"]
+    },
+    {
+      "recipe_id": "recipe-007",
+      "title": "Bissap Hibiscus Iced Tea",
+      "featured_product": "Bissap (Hibiscus)",
+      "difficulty": "Easy",
+      "time_minutes": 15,
+      "servings": 4,
+      "description": "A deep crimson hibiscus drink from Senegal — sweet, tart, and intensely refreshing. Served chilled over ice with a hint of mint.",
+      "ingredients": [
+        { "name": "Bissap (Hibiscus)", "amount": "30g dried flowers", "in_store": true },
+        { "name": "water", "amount": "1 litre", "in_store": false },
+        { "name": "sugar or honey", "amount": "3–4 tbsp to taste", "in_store": false },
+        { "name": "fresh mint leaves", "amount": "a small handful (optional)", "in_store": false },
+        { "name": "lime juice", "amount": "1 tbsp (optional)", "in_store": false },
+        { "name": "ice cubes", "amount": "as needed", "in_store": false }
+      ],
+      "steps": [
+        "Bring 1 litre of water to a boil.",
+        "Add dried hibiscus flowers and remove from heat.",
+        "Steep for 10 minutes.",
+        "Strain out the flowers using a fine sieve.",
+        "Add sugar or honey while still warm and stir until dissolved.",
+        "Add lime juice if using.",
+        "Let cool, then refrigerate until cold.",
+        "Serve over ice with fresh mint leaves."
+      ],
+      "serving_suggestion": "Serve in tall glasses with ice and a slice of lime on the rim.",
+      "tags": ["senegalese", "drink", "hibiscus", "iced", "refreshing", "vegan"]
+    },
+    {
+      "recipe_id": "recipe-008",
+      "title": "Plantain Chip Crunch Bowl",
+      "featured_product": "Plantain Chips",
+      "difficulty": "Easy",
+      "time_minutes": 10,
+      "servings": 2,
+      "description": "A quick, no-cook bowl that uses plantain chips as a crispy topping over a simple avocado and tomato base. Ready in 10 minutes.",
+      "ingredients": [
+        { "name": "Plantain Chips", "amount": "80g", "in_store": true },
+        { "name": "avocado", "amount": "1 large, diced", "in_store": false },
+        { "name": "cherry tomatoes", "amount": "100g, halved", "in_store": false },
+        { "name": "red onion", "amount": "1/4 small, finely sliced", "in_store": false },
+        { "name": "lime juice", "amount": "1 tbsp", "in_store": false },
+        { "name": "salt", "amount": "to taste", "in_store": false },
+        { "name": "fresh coriander", "amount": "a few sprigs", "in_store": false }
+      ],
+      "steps": [
+        "Combine diced avocado, tomatoes, and red onion in a bowl.",
+        "Drizzle with lime juice and season with salt.",
+        "Toss gently.",
+        "Divide into two serving bowls.",
+        "Top generously with plantain chips.",
+        "Garnish with fresh coriander and serve immediately."
+      ],
+      "serving_suggestion": "Eat right away so the chips stay crunchy. Works well as a light lunch or starter.",
+      "tags": ["ghanaian", "snack", "no-cook", "gluten-free", "quick", "plantain"]
+    },
+    {
+      "recipe_id": "recipe-009",
+      "title": "Moringa Green Smoothie",
+      "featured_product": "Moringa Powder",
+      "difficulty": "Easy",
+      "time_minutes": 5,
+      "servings": 1,
+      "description": "A quick blended smoothie that adds moringa powder to banana and mango for an earthy, green boost. Ready in under 5 minutes.",
+      "ingredients": [
+        { "name": "Moringa Powder", "amount": "1 tsp", "in_store": true },
+        { "name": "banana", "amount": "1 ripe, frozen", "in_store": false },
+        { "name": "mango chunks", "amount": "100g, frozen", "in_store": false },
+        { "name": "milk or plant-based milk", "amount": "200ml", "in_store": false },
+        { "name": "honey", "amount": "1 tsp (optional)", "in_store": false },
+        { "name": "ice cubes", "amount": "a few (optional)", "in_store": false }
+      ],
+      "steps": [
+        "Add banana, mango, and moringa powder to a blender.",
+        "Pour in milk.",
+        "Add honey and ice if using.",
+        "Blend on high for 30 seconds until smooth.",
+        "Pour into a glass and serve immediately."
+      ],
+      "serving_suggestion": "Drink fresh. Pairs well with a slice of toast or oat biscuits.",
+      "tags": ["east-african", "smoothie", "moringa", "superfood", "breakfast", "quick", "vegan"]
+    },
+    {
+      "recipe_id": "recipe-010",
+      "title": "Quick Fufu with Simple Egusi Dip",
+      "featured_product": "Fufu Flour",
+      "difficulty": "Easy",
+      "time_minutes": 20,
+      "servings": 4,
+      "description": "Smooth, stretchy fufu made from pre-cooked flour in minutes, served with a quick egusi dipping soup. The classic West African pairing made fast.",
+      "ingredients": [
+        { "name": "Fufu Flour", "amount": "400g", "in_store": true },
+        { "name": "Egusi Seeds", "amount": "100g", "in_store": true },
+        { "name": "Red Palm Oil", "amount": "2 tbsp", "in_store": true },
+        { "name": "water", "amount": "700ml total", "in_store": false },
+        { "name": "onion", "amount": "1/2 small, chopped", "in_store": false },
+        { "name": "salt", "amount": "to taste", "in_store": false }
+      ],
+      "steps": [
+        "Heat palm oil in a small pot over medium heat.",
+        "Add onion and fry for 3 minutes.",
+        "Mix egusi seeds with 3 tbsp water to form a paste, then add to the pot.",
+        "Add 300ml water and salt. Simmer for 10 minutes, stirring often.",
+        "Boil 400ml water in a separate pot.",
+        "Pour fufu flour gradually into the boiling water while stirring.",
+        "Reduce heat and stir vigorously for 3–5 minutes until smooth and thick.",
+        "Wet your hands lightly and shape fufu into balls.",
+        "Serve the fufu balls alongside the egusi dip."
+      ],
+      "serving_suggestion": "Pinch off a piece of fufu, press a small indent with your thumb, and dip into the soup.",
+      "tags": ["west-african", "fufu", "cassava", "traditional", "gluten-free", "quick-cook"]
+    },
+    {
+      "recipe_id": "recipe-011",
+      "title": "Piri Piri Grilled Prawns",
+      "featured_product": "Piri Piri Sauce",
+      "difficulty": "Easy",
+      "time_minutes": 20,
+      "servings": 2,
+      "description": "Juicy prawns marinated in fiery piri piri sauce and grilled until lightly charred. A Mozambican classic ready in under 20 minutes.",
+      "ingredients": [
+        { "name": "Piri Piri Sauce", "amount": "4 tbsp", "in_store": true },
+        { "name": "large prawns", "amount": "400g, peeled and deveined", "in_store": false },
+        { "name": "garlic", "amount": "2 cloves, minced", "in_store": false },
+        { "name": "lemon juice", "amount": "2 tbsp", "in_store": false },
+        { "name": "vegetable oil", "amount": "1 tbsp", "in_store": false },
+        { "name": "salt", "amount": "to taste", "in_store": false },
+        { "name": "fresh parsley", "amount": "a few sprigs, chopped", "in_store": false }
+      ],
+      "steps": [
+        "Combine piri piri sauce, garlic, lemon juice, oil, and salt in a bowl.",
+        "Add prawns and toss to coat.",
+        "Marinate for 10 minutes at room temperature.",
+        "Heat a grill pan or outdoor grill to high heat.",
+        "Grill prawns for 2 minutes per side until pink and slightly charred.",
+        "Transfer to a plate and scatter chopped parsley on top.",
+        "Serve immediately."
+      ],
+      "serving_suggestion": "Serve with lemon wedges, crusty bread, or over plain rice to soak up the sauce.",
+      "tags": ["mozambican", "seafood", "grilled", "spicy", "piri-piri", "quick", "gluten-free"]
+    },
+    {
+      "recipe_id": "recipe-012",
+      "title": "Baobab Energy Balls",
+      "featured_product": "Baobab Powder",
+      "difficulty": "Easy",
+      "time_minutes": 15,
+      "servings": 12,
+      "description": "No-bake energy balls rolled with baobab powder for a citrusy tang. Made with oats, groundnut paste, and honey — a quick snack that keeps well in the fridge.",
+      "ingredients": [
+        { "name": "Baobab Powder", "amount": "2 tbsp", "in_store": true },
+        { "name": "Groundnut Paste", "amount": "100g", "in_store": true },
+        { "name": "rolled oats", "amount": "120g", "in_store": false },
+        { "name": "honey", "amount": "3 tbsp", "in_store": false },
+        { "name": "desiccated coconut", "amount": "30g for rolling (optional)", "in_store": false },
+        { "name": "salt", "amount": "1 pinch", "in_store": false }
+      ],
+      "steps": [
+        "Combine rolled oats, groundnut paste, honey, baobab powder, and salt in a bowl.",
+        "Mix until a firm, sticky dough forms.",
+        "If the dough is too dry, add 1 tsp of water at a time.",
+        "Refrigerate the mixture for 5 minutes to firm up.",
+        "Roll into 12 equal balls using your hands.",
+        "Roll each ball in desiccated coconut if using.",
+        "Store in the fridge in an airtight container for up to 5 days."
+      ],
+      "serving_suggestion": "Serve chilled as a snack alongside a glass of Bissap hibiscus tea.",
+      "tags": ["southern-african", "snack", "no-bake", "energy-ball", "baobab", "superfood", "vegan"]
+    }
+  ],
+  "total_recipes": 12,
+  "notes": "All 12 catalog products covered: Jollof Rice Mix, Egusi Seeds, Berbere Spice Blend, Suya Spice, Red Palm Oil, Groundnut Paste, Bissap (Hibiscus), Plantain Chips, Moringa Powder, Fufu Flour, Piri Piri Sauce, Baobab Powder. Each product is the featured_product in exactly one recipe. Additional catalog products appear as secondary ingredients where they fit naturally (Red Palm Oil in recipes 002, 003, 005, 006, 010; Egusi Seeds in recipe 010; Groundnut Paste in recipe 004 and 012). All ingredients marked in_store: true are present in data/products.json. Common pantry items are marked in_store: false. No health claims were made. Moringa and Baobab recipes use food-format applications (smoothie, energy ball) appropriate to their superfood category."
+}
