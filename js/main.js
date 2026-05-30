@@ -16,10 +16,22 @@ document.querySelectorAll('.mobile-link').forEach(link => {
 });
 
 // ===== PRODUCT CATALOG =====
+let allRecipes = [];
+
 async function loadProducts() {
   const res = await fetch('data/products.json');
   const data = await res.json();
   return data;
+}
+
+async function loadRecipes() {
+  try {
+    const res = await fetch('reports/recipes.json');
+    const data = await res.json();
+    return data.recipes || [];
+  } catch {
+    return [];
+  }
 }
 
 function renderFilters(categories, activeCategory) {
@@ -53,7 +65,10 @@ function renderProducts(products) {
         <div class="product-desc">${p.description}</div>
         <div class="product-footer">
           <div class="product-price">AED ${p.price} <span>/ ${p.weight}</span></div>
-          <button class="add-btn" title="Add to wishlist">+</button>
+          <div class="product-footer-actions">
+            <button class="recipe-btn" data-name="${p.name}" title="View recipe">📖</button>
+            <button class="add-btn" title="Add to wishlist">+</button>
+          </div>
         </div>
       </div>
     </div>
@@ -69,10 +84,19 @@ function renderProducts(products) {
       setTimeout(() => { btn.textContent = '+'; btn.style.background = ''; btn.style.color = ''; }, 1500);
     });
   });
+
+  // recipe-btn
+  grid.querySelectorAll('.recipe-btn').forEach(btn => {
+    btn.addEventListener('click', e => {
+      e.stopPropagation();
+      openRecipeModal(btn.dataset.name);
+    });
+  });
 }
 
 async function initCatalog() {
-  const data = await loadProducts();
+  const [data, recipes] = await Promise.all([loadProducts(), loadRecipes()]);
+  allRecipes = recipes;
   let activeCategory = 'All';
 
   renderFilters(data.categories, activeCategory);
@@ -90,6 +114,60 @@ async function initCatalog() {
 }
 
 initCatalog();
+
+// ===== RECIPE MODAL =====
+function openRecipeModal(productName) {
+  const recipe = allRecipes.find(r => r.featured_product === productName);
+  const overlay = document.getElementById('recipeModal');
+  const content = document.getElementById('recipeModalContent');
+
+  if (!recipe) {
+    content.innerHTML = `<p style="color:var(--text-muted);text-align:center;padding:40px 0">No recipe found for this product yet.</p>`;
+  } else {
+    content.innerHTML = `
+      <div class="rm-header">
+        <div class="rm-badges">
+          <span class="rm-badge">${recipe.difficulty}</span>
+          <span class="rm-badge">⏱ ${recipe.time_minutes} min</span>
+          <span class="rm-badge">👥 ${recipe.servings} servings</span>
+        </div>
+        <h2 class="rm-title">${recipe.title}</h2>
+        <p class="rm-desc">${recipe.description}</p>
+      </div>
+      <div class="rm-section">
+        <h3>Ingredients</h3>
+        <ul class="rm-ingredients">
+          ${recipe.ingredients.map(i => `
+            <li class="${i.in_store ? 'rm-in-store' : ''}">${i.amount} <strong>${i.name}</strong>${i.in_store ? ' <span class="rm-store-tag">in store</span>' : ''}</li>
+          `).join('')}
+        </ul>
+      </div>
+      <div class="rm-section">
+        <h3>How to cook</h3>
+        <ol class="rm-steps">
+          ${recipe.steps.map(s => `<li>${s}</li>`).join('')}
+        </ol>
+      </div>
+      <div class="rm-serving">🍽 ${recipe.serving_suggestion}</div>
+    `;
+  }
+
+  overlay.classList.add('open');
+  document.body.style.overflow = 'hidden';
+}
+
+function closeRecipeModal() {
+  document.getElementById('recipeModal').classList.remove('open');
+  document.body.style.overflow = '';
+}
+
+document.getElementById('recipeModalClose').addEventListener('click', closeRecipeModal);
+document.getElementById('recipeModal').addEventListener('click', e => {
+  if (e.target === e.currentTarget) closeRecipeModal();
+});
+document.addEventListener('keydown', e => {
+  if (e.key === 'Escape') closeRecipeModal();
+});
 
 // ===== AI CHAT =====
 const chatMessages = document.getElementById('chatMessages');
