@@ -74,6 +74,14 @@ function renderProducts(products) {
     </div>
   `).join('');
 
+  // product card click — info popup
+  grid.querySelectorAll('.product-card').forEach(card => {
+    card.addEventListener('click', () => {
+      const product = products.find(p => p.id === +card.dataset.id);
+      if (product) openProductInfo(product);
+    });
+  });
+
   // add-btn feedback
   grid.querySelectorAll('.add-btn').forEach(btn => {
     btn.addEventListener('click', e => {
@@ -161,12 +169,32 @@ function closeRecipeModal() {
   document.body.style.overflow = '';
 }
 
+// ===== PRODUCT INFO POPUP =====
+function openProductInfo(p) {
+  document.getElementById('productInfoEmoji').textContent = p.emoji;
+  document.getElementById('productInfoOrigin').textContent = '📍 ' + p.origin;
+  document.getElementById('productInfoName').textContent = p.name;
+  document.getElementById('productInfoBio').textContent = p.bio || p.description;
+  document.getElementById('productInfoModal').classList.add('open');
+  document.body.style.overflow = 'hidden';
+}
+
+function closeProductInfo() {
+  document.getElementById('productInfoModal').classList.remove('open');
+  document.body.style.overflow = '';
+}
+
+document.getElementById('productInfoClose').addEventListener('click', closeProductInfo);
+document.getElementById('productInfoModal').addEventListener('click', e => {
+  if (e.target === e.currentTarget) closeProductInfo();
+});
+document.addEventListener('keydown', e => {
+  if (e.key === 'Escape') { closeRecipeModal(); closeProductInfo(); }
+});
+
 document.getElementById('recipeModalClose').addEventListener('click', closeRecipeModal);
 document.getElementById('recipeModal').addEventListener('click', e => {
   if (e.target === e.currentTarget) closeRecipeModal();
-});
-document.addEventListener('keydown', e => {
-  if (e.key === 'Escape') closeRecipeModal();
 });
 
 // ===== AI CHAT =====
