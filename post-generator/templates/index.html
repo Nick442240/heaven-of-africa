@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Heaven of Africa — Post Generator</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <main class="page-shell">
+        <section class="hero">
+            <div class="hero__content">
+                <p class="eyebrow">Heaven of Africa · Social Post Generator</p>
+                <h1>Store Post Generator</h1>
+                <p class="subtitle">Enter a product and audience — get a ready-made post draft for Telegram or Instagram</p>
+            </div>
+        </section>
+
+        <section class="function-block">
+            <p class="eyebrow">How it works</p>
+            <h2>Three steps to a ready post</h2>
+            <div class="function-flow">
+                <article>
+                    <strong>Input</strong>
+                    <p>Enter a product from the catalogue, your target audience, platform and post style.</p>
+                </article>
+                <article>
+                    <strong>Action</strong>
+                    <p>The generator builds a post structure in English based on the brand template.</p>
+                </article>
+                <article>
+                    <strong>Result</strong>
+                    <p>You get a title, opening, structure, CTA and hashtags — edit and copy.</p>
+                </article>
+            </div>
+        </section>
+
+        <section class="generator-layout">
+            <form class="form-card" action="/" method="post">
+                {% if errors %}
+                    <div class="alert">
+                        {% for error in errors %}
+                            <p>{{ error }}</p>
+                        {% endfor %}
+                    </div>
+                {% endif %}
+
+                <label>
+                    <span>Product or post topic</span>
+                    <input id="topic-input" type="text" name="topic" value="{{ form_data.get('topic', '') }}" placeholder="e.g.: Berbere Spice Blend">
+                </label>
+
+                <label>
+                    <span>Target audience</span>
+                    <input type="text" name="audience" value="{{ form_data.get('audience', '') }}" placeholder="e.g.: African expats in Dubai">
+                </label>
+
+                <div class="field-grid">
+                    <label>
+                        <span>Platform</span>
+                        <select name="platform">
+                            <option {% if form_data.get('platform') == 'Telegram' %}selected{% endif %}>Telegram</option>
+                            <option {% if form_data.get('platform') == 'Instagram' %}selected{% endif %}>Instagram</option>
+                        </select>
+                    </label>
+
+                    <label>
+                        <span>Post style</span>
+                        <select name="style">
+                            <option {% if form_data.get('style') == 'Product' %}selected{% endif %}>Product</option>
+                            <option {% if form_data.get('style') == 'Cultural' %}selected{% endif %}>Cultural</option>
+                            <option {% if form_data.get('style') == 'Recipe' %}selected{% endif %}>Recipe</option>
+                            <option {% if form_data.get('style') == 'Lifestyle' %}selected{% endif %}>Lifestyle</option>
+                        </select>
+                    </label>
+                </div>
+
+                <button class="gradient-button" type="submit">Generate post</button>
+            </form>
+
+            <aside class="side-panel">
+                <h2>Products from catalogue</h2>
+                <div class="topic-tags">
+                    <span>Jollof Rice Mix</span>
+                    <span>Egusi Seeds</span>
+                    <span>Berbere Spice Blend</span>
+                    <span>Suya Spice</span>
+                    <span>Red Palm Oil</span>
+                    <span>Groundnut Paste</span>
+                    <span>Moringa Powder</span>
+                    <span>Baobab Powder</span>
+                    <span>Plantain Chips</span>
+                    <span>Bissap Hibiscus</span>
+                    <span>Piri Piri Sauce</span>
+                    <span>Fufu Flour</span>
+                </div>
+            </aside>
+        </section>
+
+        <section class="steps">
+            <h2>Four post styles</h2>
+            <div class="steps-grid">
+                <article>
+                    <strong>P</strong>
+                    <h3>Product</h3>
+                    <p>Focus on the product: origin, price, features and who it's for.</p>
+                </article>
+                <article>
+                    <strong>C</strong>
+                    <h3>Cultural</h3>
+                    <p>Ingredient story: cultural context, origin and which dishes it's used in.</p>
+                </article>
+                <article>
+                    <strong>R</strong>
+                    <h3>Recipe</h3>
+                    <p>Recipe inspiration: how to cook a dish with this product, simple steps.</p>
+                </article>
+                <article>
+                    <strong>L</strong>
+                    <h3>Lifestyle</h3>
+                    <p>Emotional angle: atmosphere, story, the feeling of Africa in Dubai.</p>
+                </article>
+            </div>
+        </section>
+    </main>
+
+    <script>
+        const topicInput = document.getElementById("topic-input");
+        document.querySelectorAll(".topic-tags span").forEach(function(tag) {
+            tag.style.cursor = "pointer";
+            tag.addEventListener("click", function() {
+                topicInput.value = tag.textContent;
+                topicInput.focus();
+            });
+        });
+    </script>
+</body>
+</html>

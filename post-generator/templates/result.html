@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Post Ready — Heaven of Africa</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <main class="page-shell result-page">
+        <section class="hero hero--compact">
+            <div class="hero__content">
+                <p class="eyebrow">{{ result.meta.platform }} · {{ result.meta.style }}</p>
+                <h1>Post Draft</h1>
+                <p class="subtitle">Product: {{ result.meta.topic }} · Audience: {{ result.meta.audience }}</p>
+            </div>
+        </section>
+
+        <section class="input-summary">
+            <div>
+                <span class="card-label">Input data</span>
+                <h2>Post parameters</h2>
+            </div>
+            <div class="input-grid">
+                <article>
+                    <span>Product / Topic</span>
+                    <strong>{{ result.meta.topic }}</strong>
+                </article>
+                <article>
+                    <span>Audience</span>
+                    <strong>{{ result.meta.audience }}</strong>
+                </article>
+                <article>
+                    <span>Platform</span>
+                    <strong>{{ result.meta.platform }}</strong>
+                </article>
+                <article>
+                    <span>Style</span>
+                    <strong>{{ result.meta.style }}</strong>
+                </article>
+            </div>
+        </section>
+
+        <section class="result-section">
+            <div class="section-heading">
+                <span class="card-label">Result</span>
+                <h2>Post structure and text</h2>
+            </div>
+
+            <div class="result-grid">
+                <article class="result-card result-card--wide">
+                    <span class="card-label">Title</span>
+                    <h2>{{ result.title }}</h2>
+                </article>
+
+                <article class="result-card result-card--wide">
+                    <span class="card-label">Opening</span>
+                    <p>{{ result.intro }}</p>
+                </article>
+
+                <article class="result-card">
+                    <span class="card-label">Structure</span>
+                    <ol class="structure-list">
+                        {% for item in result.structure %}
+                            <li>{{ item }}</li>
+                        {% endfor %}
+                    </ol>
+                </article>
+
+                <article class="result-card">
+                    <span class="card-label">Call to action</span>
+                    <p class="cta-text">{{ result.cta }}</p>
+                </article>
+
+                <article class="result-card result-card--wide">
+                    <span class="card-label">Hashtags</span>
+                    <div class="hashtags">
+                        {% for tag in result.hashtags %}
+                            <span>{{ tag }}</span>
+                        {% endfor %}
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <section class="copy-panel" data-platform="{{ result.meta.platform }}">
+            <div class="copy-panel__header">
+                <div>
+                    <span class="card-label">Final post editor</span>
+                    <h2>Edit before copying</h2>
+                </div>
+                <div class="editor-actions">
+                    <button class="secondary-button save-button" type="button" data-save-button>
+                        Save changes
+                    </button>
+                    <button class="gradient-button copy-button" type="button" data-copy-button>
+                        Copy post
+                    </button>
+                </div>
+            </div>
+
+            <label class="editor-field" for="final-post">
+                <span>Full post text</span>
+                <textarea id="final-post" rows="16" data-post-editor>{{ result.full_post }}</textarea>
+            </label>
+
+            <div class="editor-meta">
+                <p class="char-counter">Characters: <span data-char-count>0</span></p>
+                <p class="platform-hint" data-platform-hint></p>
+            </div>
+
+            <div class="quality-card">
+                <span class="card-label">Quality checklist</span>
+                <ul class="quality-list">
+                    <li data-check="title"><span></span>Title present</li>
+                    <li data-check="intro"><span></span>Opening present</li>
+                    <li data-check="structure"><span></span>Structure present</li>
+                    <li data-check="cta"><span></span>Call to action present</li>
+                    <li data-check="hashtags"><span></span>Hashtags present</li>
+                    <li data-check="minLength"><span></span>Text is not too short</li>
+                    <li data-check="maxLength"><span></span>Text length fits the platform</li>
+                </ul>
+            </div>
+
+            <p class="copy-status" data-copy-status aria-live="polite"></p>
+        </section>
+
+        <div class="actions">
+            <button class="gradient-button copy-button" type="button" data-copy-button>
+                Copy post
+            </button>
+            <a class="secondary-button" href="/">Create new post</a>
+        </div>
+    </main>
+
+    <script>
+        const editorPanel = document.querySelector("[data-platform]");
+        const finalPost = document.querySelector("[data-post-editor]");
+        const copyButtons = document.querySelectorAll("[data-copy-button]");
+        const saveButton = document.querySelector("[data-save-button]");
+        const copyStatus = document.querySelector("[data-copy-status]");
+        const charCount = document.querySelector("[data-char-count]");
+        const platformHint = document.querySelector("[data-platform-hint]");
+        const checks = {
+            title: document.querySelector("[data-check='title']"),
+            intro: document.querySelector("[data-check='intro']"),
+            structure: document.querySelector("[data-check='structure']"),
+            cta: document.querySelector("[data-check='cta']"),
+            hashtags: document.querySelector("[data-check='hashtags']"),
+            minLength: document.querySelector("[data-check='minLength']"),
+            maxLength: document.querySelector("[data-check='maxLength']")
+        };
+        const platform = editorPanel.dataset.platform;
+        const platformLimits = {
+            "Telegram": {
+                hint: "For Telegram, 700–1200 characters is optimal — informative and to the point",
+                max: 1200
+            },
+            "Instagram": {
+                hint: "For Instagram, 500–900 characters is optimal — visual, emotional, ending with a question",
+                max: 900
+            }
+        };
+        const activeLimit = platformLimits[platform] || platformLimits["Telegram"];
+        let savedPost = finalPost.value.trim();
+
+        function setCheck(name, isOk) {
+            const item = checks[name];
+            const badge = item.querySelector("span");
+            item.classList.toggle("is-ok", isOk);
+            item.classList.toggle("is-warning", !isOk);
+            badge.textContent = isOk ? "OK" : "Check";
+        }
+
+        function updateEditorState() {
+            const text = finalPost.value.trim();
+            const length = text.length;
+            const lines = text.split("\n").map((line) => line.trim()).filter(Boolean);
+            const lowerText = text.toLowerCase();
+            const hasList = /(^|\n)\s*(\d+\.|-|•)/.test(text);
+
+            charCount.textContent = length;
+            platformHint.textContent = activeLimit.hint;
+
+            setCheck("title", lines.length > 0 && lines[0].length >= 8);
+            setCheck("intro", lowerText.includes("opening:"));
+            setCheck("structure", lowerText.includes("structure:") || hasList);
+            setCheck("cta", lowerText.includes("call to action:"));
+            setCheck("hashtags", text.includes("#"));
+            setCheck("minLength", length >= 200);
+            setCheck("maxLength", length <= activeLimit.max);
+        }
+
+        function savePost() {
+            savedPost = finalPost.value.trim();
+            copyStatus.textContent = "Changes saved";
+            updateEditorState();
+        }
+
+        async function copyPost() {
+            savedPost = finalPost.value.trim();
+            const text = savedPost;
+            try {
+                await navigator.clipboard.writeText(text);
+                copyStatus.textContent = "Post copied to clipboard.";
+                copyButtons.forEach((button) => {
+                    button.textContent = "Copied";
+                });
+            } catch (error) {
+                copyStatus.textContent = "Could not copy automatically — select the text manually.";
+            }
+            window.setTimeout(() => {
+                copyButtons.forEach((button) => {
+                    button.textContent = "Copy post";
+                });
+            }, 2200);
+        }
+
+        copyButtons.forEach((button) => {
+            button.addEventListener("click", copyPost);
+        });
+
+        saveButton.addEventListener("click", savePost);
+        finalPost.addEventListener("input", updateEditorState);
+        updateEditorState();
+    </script>
+</body>
+</html>
